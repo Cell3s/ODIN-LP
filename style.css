@@ -1,9 +1,92 @@
-#TitleBlock{
-    background-color: black;
-    height: 1000px;
-    margin:0%
+* {
+    margin: 0;
+    padding: 0;
+
 }
 
-.TitleText{
-    color: white;
+.blocking{
+    display: flex;
+}
+
+#TitleBlock{
+    background-color: #1f2937;
+    height: 45vw;
+    width: 100vw;
+}
+
+#Info{
+    background-color: white;
+    height: 30vw;
+    width: 100vw;
+}
+
+#Info{
+    background-color: white;
+    height: 30vw;
+    width: 100vw;
+}
+
+#Quote{
+    background-color: #e5e7eb;
+    height: 30vw;
+    width: 100vw;
+}
+
+#CTA {
+    background-color: white;
+    height: 30vw;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Fixing the CSS, just updated to put all the content in a container */
+
+    #SignUp{
+        background-color: #3b82f6;
+        width: 75%;
+        height: 40%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
     }
+
+    #SignUp .text {
+        width: 70%;
+        justify-content: flex-start;
+    }
+
+    #SignUp .button-cup{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #SignUp button{
+        background-color: transparent;
+        color: white;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        border-radius: 10px;
+        border-color: white;
+        width: 15%;
+        /* height: 25%; */
+        margin-right: 2.5%;
+    }
+
+
+    
+
+#Foot{
+    background-color:#1f2937;
+    height: 10vw;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
